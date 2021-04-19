@@ -12,3 +12,22 @@ As a solution to the proposed problem, we designed our own model of Convolutiona
 Our concern is to provide solution to such a problem which haven’t been acknowledged by many others. Our model will promote smooth and safe conduct of traffic with lesser traffic disturbances and road mishaps. In layman's term, our work is a contribution in uplifting the concept of already existing Self driving cars, by adding some extensions in its model. The car will alert the drivers about the nearby traffic signs and help in maintaining a healthy road presence.
 
 In addition to all the above points, the inexperienced drivers who don’t know much about traffic signs won’t feel unconfident and will be getting guidance on the go!!
+
+# REQUIREMENTS & Dataset :
+The following Software and Hardware Requirements are the minimum requirements before starting with this project.
+
+Software:
+● Programming Language: Python 3
+● Software: Google Colab, Jupyter
+● Packages: Anaconda 3.5.6
+● Libraries:  NumPy, Tensorflow, keras, Pandas, matplotlib, Json.
+
+Hardware Specifications:
+● Operating System: Windows 10 (64-bit)
+● Hardware Requirements:
+● RAM: 4GB with 4GB NVIDIA Graphics Card
+● Internal Storage: >10 GB
+
+Dataset:
+The German Traffic sign Detection is provided here. The dataset consists of 39209 images and 43 classes.
+
