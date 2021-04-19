@@ -33,9 +33,9 @@ The German Traffic sign Detection is provided https://www.kaggle.com/meowmeowmeo
 
 # Working process :
 1. Data Transformation
-   resize all the images into same size 32*32
-   Normalize all the grayscale images to [0,1]
-   Apply data augmentation to train images in all possible condition.
+   . resize all the images into same size 32*32
+   . Normalize all the grayscale images to [0,1]
+   . Apply data augmentation to train images in all possible condition.
 
 2. Divide training data into validation part and training part, size of validation 20%.
 
