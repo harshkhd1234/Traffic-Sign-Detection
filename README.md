@@ -18,6 +18,7 @@ The following Software and Hardware Requirements are the minimum requirements be
 
 Software:
 ● Programming Language: Python 3
+
 ● Software: Google Colab, Jupyter
 ● Packages: Anaconda 3.5.6
 ● Libraries:  NumPy, Tensorflow, keras, Pandas, matplotlib, Json.
@@ -29,5 +30,5 @@ Hardware Specifications:
 ● Internal Storage: >10 GB
 
 Dataset:
-The German Traffic sign Detection is provided here. The dataset consists of 39209 images and 43 classes.
+The German Traffic sign Detection is provided https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign. The dataset consists of 39209 images and 43 classes.
 
