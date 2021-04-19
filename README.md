@@ -18,7 +18,6 @@ The following Software and Hardware Requirements are the minimum requirements be
 
 Software:
 ● Programming Language: Python 3
-
 ● Software: Google Colab, Jupyter
 ● Packages: Anaconda 3.5.6
 ● Libraries:  NumPy, Tensorflow, keras, Pandas, matplotlib, Json.
@@ -31,4 +30,19 @@ Hardware Specifications:
 
 Dataset:
 The German Traffic sign Detection is provided https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign. The dataset consists of 39209 images and 43 classes.
+
+# Working process :
+1. Data Transformation
+resize all the images into same size 32*32
+
+Normalize all the grayscale images to [0,1]
+
+Apply data augmentation to train images in all    possible condition.
+
+
+2. Divide training data into validation part and training part, size of validation 20%.
+
+
+3. Train the model with 10 convolutional layers.There are 4 dense layers in neural network in every hidden layers have different neurons. Input layer have 1024 neurons, first hidden layer have 512 neurons, second hidden layer have 256 neurons, third layer have 128 neurons. All hidden layers use relu activation function and output layer use softmax function to desire output.
+
 
